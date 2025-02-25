@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
     <style>
+    topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        
+    }
+
     body {
         background-image: url("paperboard-texture.jpg");
         background-repeat: repeat;
@@ -24,13 +33,17 @@
     h1.one {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
         text-align:center;
+        color:rgb(128, 128, 87);
     }
 
     .Profile {
         border-color: rgb(147, 147, 146);
-        border-style: dotted;
+        border-left-color: rgb(95, 92, 92);
+        border-style: dotted dotted dotted solid;
         border-width: 5px;
-        padding-left: 5px;
+        border-left-width: 15px;
+        padding-left: 10px;
+        background-color: rgba(193, 193, 193, 0.332);
     }
 
     .Exp{
@@ -39,6 +52,8 @@
     </style>
 </head>
 <body>
+    <div class="topbar"></div>
+
     <h1 class="one"><i>My Biodata</i></h1>
     <div class="Profile">
         <p> Name: Petrus Dennis Artanto</p>
