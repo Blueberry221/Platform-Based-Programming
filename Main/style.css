@@ -1,0 +1,12 @@
+body {
+    background-image:url("paperboard-texture.jpg");
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    }
+
+desctiption {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
