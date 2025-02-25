@@ -17,11 +17,15 @@
     }
 
     .container2 {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
         background-color: white;
         border-style: dotted none none none;
         border-width: 2px;
         border-color:rgb(0, 0, 0, 0.45);
-        position: relative;
+        width: 100%;
+        z-index: 9999;
     }
 
     body {
@@ -30,19 +34,15 @@
         background-attachment: fixed;
     }
     
-    table, th, td {
-        border: 1px solid rgb(0, 0, 0);
-        border-collapse: collapse;
-        }
-    
+
     desctiption {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
-    
+
     p.one {
         text-align:right;
     }
-    
+
     h1.one {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
         text-align:center;
@@ -65,8 +65,7 @@
     } 
     </style>
 </head>
-<body>
-    
+
 <div class="container">
     <h1 class="one"><i>My Biodata</i></h1>
     <div class="Profile">
@@ -94,40 +93,30 @@
         </p>
     </div>
 
-    
-
     <h2>Education</h2>
     
-    <div>
-        <table align="center">
-            <tr>
-                <th>No.</th>
-                <th>Degree</th>
-                <th>Institution</th>
-                <th>Duration</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Bachelor of Science in Informatics</td>
-                <td>Sanata Dharma University</td>
-                <td>2023-2027</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>High School Diploma</td>
-                <td>SMA Negeri 1 Bantul</td>
-                <td>2020-2023</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Junior High School Diploma </td>
-                <td>SMP Negeri 1 Pandak</td>
-                <td>2017-2020</td>
-            </tr>
-        </table>
-    </div>
+    <div class="dropdown">
+        <span>College</span>
+            <div class="dropdown-content">
+                <p>Degree : Bachelor of Science in Informatics</p>
+                <p>Institution : Sanata Dharma University</p>
+                <p>Duration : 2023-2027</p>
+            </div>
 
-    
+        <span>Senior High School</span>
+            <div class="dropdown-content">
+                <p>Degree : High School Diploma</p>
+                <p>Institution : SMA Negeri 1 Bantul</p>
+                <p>Duration : 2020-2023</p>
+            </div>
+
+        <span>Junior High School</span>
+            <div class="dropdown-content">
+                <p>Degree : Junior High School Diploma</p>
+                <p>Institution : SMP Negeri 1 Pandak</p>
+                <p>Duration : 2017-2020</p>
+            </div>
+    </div>
 
     <div class="Exp">
         <h2>Work Experience</h2>
@@ -147,7 +136,7 @@
         </ul>
     </div>
 </div>
-
+</div>
 
     <div class="container2" align="center">
         <h3>Follow my social account</h3>
