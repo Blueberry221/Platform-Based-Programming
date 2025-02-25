@@ -1,5 +1,6 @@
 body {
-    background-image:url("paperboard-texture.jpg");
+    background-image: url("paperboard-texture.jpg");
+    background-repeat: repeat;
 }
 
 table, th, td {
