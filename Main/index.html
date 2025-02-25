@@ -1,68 +1,111 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <style>
-    .container {
-        width: 1200px;
-        margin: 80px auto;
-        background-color: rgba(180, 172, 172, 0.45);
-        position: relative;
-        border-style: solid;
-        border-width: 2px;
-        border-color: rgba(0, 0, 0, 0.45);
-        padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-    }
+        .container {
+            width: 1200px;
+            margin: 80px auto;
+            background-color: rgba(180, 172, 172, 0.45);
+            position: relative;
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgba(0, 0, 0, 0.45);
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+        }
 
-    .container2 {
-        bottom: 0;
-        position: fixed;
-        width: 100%;
-        background-color: white;
-        border-style: dotted none none none;
-        border-width: 2px;
-        border-color:rgb(0, 0, 0, 0.45);
-        width: 100%;
-        z-index: 9999;
-    }
+        .container2 {
+            /* bottom: 0;
+            position: fixed;
+            width: 100%; */
+            background-color: white;
+            border-style: dotted none none none;
+            border-width: 2px;
+            border-color: rgb(0, 0, 0, 0.45);
+            width: 100%;
+            z-index: 9999;
+        }
 
-    body {
-        background-image: url("paperboard-texture.jpg");
-        background-repeat: repeat;
-        background-attachment: fixed;
-    }
-    
+        body {
+            background-image: url("paperboard-texture.jpg");
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
 
-    desctiption {
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
 
-    p.one {
-        text-align:right;
-    }
+        desctiption {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
 
-    h1.one {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-        text-align:center;
-        color:rgb(128, 128, 87);
-        padding-top: 20px;
-    }
+        p.one {
+            text-align: right;
+        }
 
-    .Profile {
-        border-color: rgb(147, 147, 146);
-        border-left-color: rgb(95, 92, 92);
-        border-style: dotted dotted dotted solid;
-        border-width: 5px;
-        border-left-width: 15px;
-        padding-left: 10px;
-        background-color: rgba(193, 193, 193, 0.332);
-    }
+        h1.one {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(128, 128, 87);
+            padding-top: 20px;
+        }
 
-    .Exp{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    } 
+        .Profile {
+            border-color: rgb(147, 147, 146);
+            border-left-color: rgb(95, 92, 92);
+            border-style: dotted dotted dotted solid;
+            border-width: 5px;
+            border-left-width: 15px;
+            padding-left: 10px;
+            background-color: rgba(193, 193, 193, 0.332);
+        }
+
+        .Exp {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .dropbtn {
+            background-color: #b3c58d;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
     </style>
 </head>
 
@@ -74,77 +117,83 @@
         <p> Email: frozendsp@gmail.com</p>
         <p> Address : Bantul, Yogjakarta, Indonesian</p>
     </div>
-    
+
 
     <div class="description">
         <h2> My Profile</h2>
         <p class="one">
-            <b>3D Modeling Enthusiast</b> with a passion for creating innovative and captivating 3D models. 
+            <b>3D Modeling Enthusiast</b> with a passion for creating innovative and captivating 3D models.
             Proficient in various 3D modeling software, including Blender, Autodesk Maya, and 3ds Max
         </p>
         <p class="one">
-            As a 3D modeling enthusiast, I am driven by a passion for creating <i>unique and engaging 3D models</i>. With a strong 
-            foundation in various 3D modeling software, I continually strive to improve my skills and expand my expertise.
+            As a 3D modeling enthusiast, I am driven by a passion for creating <i>unique and engaging 3D models</i>.
+            With a strong
+            foundation in various 3D modeling software, I continually strive to improve my skills and expand my
+            expertise.
         </p>
-            
+
         <p class="one">
-            Throughout my career, I have <strong>worked on various 3D modeling projects</strong>, including film, game, and architectural visualizations. 
-            My proficiency in Blender, Autodesk Maya, and 3ds Max enables me to tackle complex projects with confidence and precision.
+            Throughout my career, I have <strong>worked on various 3D modeling projects</strong>, including film, game,
+            and architectural visualizations.
+            My proficiency in Blender, Autodesk Maya, and 3ds Max enables me to tackle complex projects with confidence
+            and precision.
         </p>
     </div>
 
     <h2>Education</h2>
-    
-    <div class="dropdown">
-        <span>College</span>
-            <div class="dropdown-content">
-                <p>Degree : Bachelor of Science in Informatics</p>
-                <p>Institution : Sanata Dharma University</p>
-                <p>Duration : 2023-2027</p>
-            </div>
 
-        <span>Senior High School</span>
+    <ul>
+        <li class="dropdown">
+            <a class="dropbtn">College</a>
             <div class="dropdown-content">
-                <p>Degree : High School Diploma</p>
-                <p>Institution : SMA Negeri 1 Bantul</p>
-                <p>Duration : 2020-2023</p>
-            </div>
-
-        <span>Junior High School</span>
+                <a>Degree : High School Diploma</a>
+                <a>Institution : SMA Negeri 1 Bantul</a>
+                <a>Duration : 2020-2023</a>
+        </li>
+        <li class="dropdown">
+            <a class="dropbtn">High School</a>
             <div class="dropdown-content">
-                <p>Degree : Junior High School Diploma</p>
-                <p>Institution : SMP Negeri 1 Pandak</p>
-                <p>Duration : 2017-2020</p>
+                <a>Degree : High School Diploma</a>
+                <a>Institution : SMA Negeri 1 Bantul</a>
+                <a>Duration : 2020-2023</a>
+        </li>
+        <li class="dropdown">
+            <a class="dropbtn">Junior High School</a>
+            <div class="dropdown-content">
+                <a>Degree : Junior High School Diploma</a>
+                <a>Institution : SMP Negeri 1 Pandak</a>
+                <a>Duration : 2017-2020</a>
             </div>
-    </div>
+        </li>
+    </ul>
 
     <div class="Exp">
         <h2>Work Experience</h2>
         <ul>
             <li>Software Engineer, PT. ABC Indonesia, 2026-2030</li>
-                <ol>
-                    <li>Developed and maintained e-commerce projects using ReactJS and NodeJS</li>
-                    <li>Managed a team of 5 developers</li>
-                    <li> Increased sales by 25% through code optimization and performance improvement</li>
-                </ol>
+            <ol>
+                <li>Developed and maintained e-commerce projects using ReactJS and NodeJS</li>
+                <li>Managed a team of 5 developers</li>
+                <li> Increased sales by 25% through code optimization and performance improvement</li>
+            </ol>
             <li>Web Developer, PT. DEF Indonesia, 2030-2032</li>
-                <ol>
-                    <li>Built and maintained websites using HTML, CSS, and JavaScript</li>
-                    <li>Collaborated with other developers to create responsive and user-friendly designs</li>
-                    <li>Worked on various project management and version control tools</li>
-                </ol>
+            <ol>
+                <li>Built and maintained websites using HTML, CSS, and JavaScript</li>
+                <li>Collaborated with other developers to create responsive and user-friendly designs</li>
+                <li>Worked on various project management and version control tools</li>
+            </ol>
         </ul>
     </div>
 </div>
 </div>
 
-    <div class="container2" align="center">
-        <h3>Follow my social account</h3>
-        <a href="https://github.com/Blueberry221">
-            <img src="github-mark.png" alt="GitHub" width="50" height="50">
-        </a>
-        <a href="http://wa.me/+6282225037650">
-            <img src="whatsapp.png" alt="WhatsApp"  width="50" height="50">
-        </a>
-    </div>    
+<div class="container2" align="center">
+    <h3>Follow my social account</h3>
+    <a href="https://github.com/Blueberry221">
+        <img src="github-mark.png" alt="GitHub" width="50" height="50">
+    </a>
+    <a href="http://wa.me/+6282225037650">
+        <img src="whatsapp.png" alt="WhatsApp" width="50" height="50">
+    </a>
+</div>
 </body>
