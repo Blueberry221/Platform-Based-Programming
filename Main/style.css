@@ -1,6 +1,7 @@
 body {
     background-image: url("paperboard-texture.jpg");
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 table, th, td {
@@ -10,4 +11,13 @@ table, th, td {
 
 desctiption {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p.one {
+    text-align:right;
+}
+
+h.one {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align:center;
 }
