@@ -2,13 +2,26 @@
 <html lang="en">
 <head>
     <style>
-    topbar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 40px;
-        
+    .container {
+        width: 1200px;
+        margin: 80px auto;
+        background-color: rgba(180, 172, 172, 0.45);
+        position: relative;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(0, 0, 0, 0.45);
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .container2 {
+        background-color: white;
+        border-style: dotted none none none;
+        border-width: 2px;
+        border-color:rgb(0, 0, 0, 0.45);
+        position: relative;
     }
 
     body {
@@ -34,6 +47,7 @@
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
         text-align:center;
         color:rgb(128, 128, 87);
+        padding-top: 20px;
     }
 
     .Profile {
@@ -52,8 +66,8 @@
     </style>
 </head>
 <body>
-    <div class="topbar"></div>
-
+    
+<div class="container">
     <h1 class="one"><i>My Biodata</i></h1>
     <div class="Profile">
         <p> Name: Petrus Dennis Artanto</p>
@@ -115,7 +129,7 @@
 
     
 
-    <div class=""Exp>
+    <div class="Exp">
         <h2>Work Experience</h2>
         <ul>
             <li>Software Engineer, PT. ABC Indonesia, 2026-2030</li>
@@ -132,16 +146,16 @@
                 </ol>
         </ul>
     </div>
+</div>
 
-    <hr>
 
-    <div align="center">
+    <div class="container2" align="center">
         <h3>Follow my social account</h3>
         <a href="https://github.com/Blueberry221">
-            <img src="github-mark.png" alt="GitHub" width="200" height="200">
+            <img src="github-mark.png" alt="GitHub" width="50" height="50">
         </a>
         <a href="http://wa.me/+6282225037650">
-            <img src="whatsapp.png" alt="WhatsApp"  width="200" height="200">
+            <img src="whatsapp.png" alt="WhatsApp"  width="50" height="50">
         </a>
     </div>    
 </body>
